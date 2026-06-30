@@ -22,7 +22,8 @@
 ##課題４
 
 - アクセスしようとしたファイルが存在しないことを示す
-```$ ls no_such_file.txt
+```
+$ ls no_such_file.txt
 ls: cannot access 'no_such_file.txt': No such file or directory
 ```
 
@@ -33,11 +34,13 @@ not_a_real_command: command not found
 ```
 
 - 実行したコマンドの引数が不足していることを示す
-```$ rm
+```
+$ rm
 rm: missing operand
 ```
 
 - アクセスしようとしたディレクトリが存在しないことを示す
-```$ cd /no/such/dir
+```
+$ cd /no/such/dir
 -bash: cd: /no/such/dir: No such file or directory
 ```
