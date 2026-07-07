@@ -24,6 +24,7 @@ note1.txt  note2.txt
 ##課題２
 
 1.
+ 
  1. `$ cp data/sample1.txt memo/sample1_backup.txt`
  2. `$ mv data/sample2.txt data/result.txt`
  3. `$ mv data/sample3.txt memo/`
@@ -32,7 +33,8 @@ note1.txt  note2.txt
    $ cat data/link_to_note1.txt
    test
    ```
- 5.```
+ 5.
+ ```
  $ find -type f
 ./data/sample1.txt
 ./data/result.txt
@@ -41,8 +43,9 @@ note1.txt  note2.txt
 ./memo/note2.txt
 ./memo/note1.txt
 ```
- 6.```
- $ find -type l
+ 6.
+ ```
+  $ find -type l
  ./data/link_to_note1.txt
  ```
 2.
