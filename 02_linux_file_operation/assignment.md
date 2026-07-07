@@ -102,7 +102,8 @@ $ diff data.txt data_replaced.txt
 > orange 80 red
 ```
 
-2.
+2. コマンドの説明
+   
 -`awk`: 列ごとにテキストファイルを扱う
 -`sort`: テキストファイルの行を並べ替える
 -`uniq`: 連続する重複行をまとめる（削除する）
