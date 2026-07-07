@@ -40,9 +40,11 @@ note1.txt  note2.txt
 ./memo/sample1_backup.txt
 ./memo/note2.txt
 ./memo/note1.txt
-6.```
-$ find -type l
-./data/link_to_note1.txt
 ```
+ 6.```
+ $ find -type l
+ ./data/link_to_note1.txt
+ ```
+2.
 
 
