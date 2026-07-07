@@ -24,16 +24,16 @@ note1.txt  note2.txt
 ##課題２
 
 1.　実行コマンドと結果
- 1. `$ cp data/sample1.txt memo/sample1_backup.txt`
- 2. `$ mv data/sample2.txt data/result.txt`
- 3. `$ mv data/sample3.txt memo/`
- 4. `$ ln -s ../memo/note1.txt data/link_to_note1.txt`
+ （1） `$ cp data/sample1.txt memo/sample1_backup.txt`
+ （2） `$ mv data/sample2.txt data/result.txt`
+ （3） `$ mv data/sample3.txt memo/`
+ （4） `$ ln -s ../memo/note1.txt data/link_to_note1.txt`
 
    ```
    $ cat data/link_to_note1.txt
    test
    ```
- 5.
+ （5）
  ```
  $ find -type f
 ./data/sample1.txt
@@ -43,7 +43,7 @@ note1.txt  note2.txt
 ./memo/note2.txt
 ./memo/note1.txt
 ```
- 6.
+ （6）
  ```
   $ find -type l
  ./data/link_to_note1.txt
@@ -53,7 +53,7 @@ note1.txt  note2.txt
 ##課題３
 
 1.`$ printf "apple 80 red\nbanana 120 yellow\napple 80 red\ncherry 150 red\n" > data.txt`
- 1.
+ （1）
  ```
 $ cat data.txt
 apple 80 red
@@ -61,7 +61,7 @@ banana 120 yellow
 apple 80 red
 cherry 150 red
 ```
- 2.
+ （2）
 ```
 $ awk '{ print $1, $3 }' data.txt
 apple red
@@ -69,21 +69,22 @@ banana yellow
 apple red
 cherry red
 ```
- 3.
+ （3）
 ```
 $ awk '$2 > 100 { print $0 }' data.txt
 banana 120 yellow
 cherry 150 red
 ```
- 4.
+ （4）
 ```
 $ sort data.txt | uniq -c
       2 apple 80 red
       1 banana 120 yellow
       1 cherry 150 red
 ```
- 5.`$ sed 's/apple/orange/g' data.txt > data_replaced.txt`
- 6.
+ （5）`$ sed 's/apple/orange/g' data.txt > data_replaced.txt`
+ 
+ （6）
 ```
 $ diff data.txt data_replaced.txt
 1c1
