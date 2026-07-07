@@ -28,7 +28,8 @@ note1.txt  note2.txt
  1. `$ cp data/sample1.txt memo/sample1_backup.txt`
  2. `$ mv data/sample2.txt data/result.txt`
  3. `$ mv data/sample3.txt memo/`
- 4.`$ ln -s ../memo/note1.txt data/link_to_note1.txt`
+ 4. `$ ln -s ../memo/note1.txt data/link_to_note1.txt`
+
    ```
    $ cat data/link_to_note1.txt
    test
